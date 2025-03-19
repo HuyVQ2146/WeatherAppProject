@@ -1,7 +1,7 @@
 const weatherForm = document.querySelector(".weatherForm");
 const cityInput = document.querySelector(".cityInput");
 const card = document.querySelector(".card");
-const apiKey = ""; // lấy từ trang openweathermap
+const apiKey = "a031ba5edfe4c79a1dba6fefd4edf565"; // lấy từ trang openweathermap
 
 weatherForm.addEventListener("submit", async event => { // biến cnay thành 1 async
     event.preventDefault();
